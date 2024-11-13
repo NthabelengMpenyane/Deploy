@@ -1,0 +1,136 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ec4e10;
+    height: 100vh;
+    border-radius: 8px;
+    color:black;
+    text-align: center;
+}
+#paragraph{
+  font-size: x-large;
+}
+#welcome{
+  display: center;
+  font-size:xx-large;
+  margin-top: 200px;
+}
+img{
+  height: 200px;
+}
+button {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    background-color: #28a745; 
+    padding:10px;
+    display: inline-block;
+  }
+.error {
+    color:white;
+    font-size: 0.9em;     
+  }
+.dashboard {
+    margin: 20px 0;
+  }
+.dashboard h1 {
+    font-size: 2em;
+    margin-top: 100px;
+  }
+.product-management {
+    margin: 20px 0;
+  }
+.product-management input {
+    margin: 5px;
+    padding: 8px;
+    width: calc(25% - 10px);
+    color: black;
+  
+  }
+.product-management button {
+    background-color:#28a745;
+  }
+.product-management li {
+    margin: 10px 0;
+  }
+.user-management{
+    margin: 20px 0;
+  }
+.user-management input {
+    margin-left: 5px;
+    color: black;
+  }
+#user-register {
+    margin: 20px 0;
+
+  }
+#user-Register input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+
+}
+#product-mng{
+  margin-left: 450px;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    display: block; 
+    margin-left: 600px; 
+    margin-top: 10px;    
+  }
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left; 
+    padding: 8px; 
+  }
+th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+  }
+.text-navigation {
+  display: flex;
+  gap: 10px; 
+  padding: 10px; 
+  justify-content: center;
+}
+
+.text-navigation input {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #28a745;
+}
+
+.text-navigation input:hover {
+  background-color: darkorange;
+}
+@keyframes rotate-anticlockwise {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(-360deg); 
+  }
+}
+
+.image1, .image2, .image3 {
+  animation: rotate-anticlockwise 10s ease-in-out infinite; 
+  width: 100px; 
+  height: 100px; 
+  transform-origin: center;
+}
+.chart-container {
+  position: relative; 
+  width: 800px;  
+  height: 200px; 
+  border-color: #28a745;
+  margin-left: 500px;
+}
